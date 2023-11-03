@@ -186,12 +186,12 @@ class Script():
         (1) AjPanel         (10) SubsSupport         (19) DreamSatPanel      (28) RakutenTV
         (2) Levi45addonsmanager           (11) NewVirtualKeyBoard  (20) JediMakerXtream    (29) ChocholousekPicons
         (3) RaedQuickSignal (12) Suptv               (21) Xstreamity         (30) OpenWebif Only DreamOS
-        (4) ArabicSavior    (13) IPtoSAT             (22) XcPlugin Forever   (31) NovaCam
+        (4) ArabicSavior    (13) IPtoSAT             (22) XcPlugin Forever   (31) Channel_Emil
         (5) YouTube         (14) EPG Grabber         (23) OpenMultiboot      (32) Cccam
         (6) KeyAdder        (15) EMU Install         (24) QuarterPounder
         (7) E2IPLAYER       (16) PlutoTV             (25) BackupFlash
         (8) FootOnsat       (17) FlashOnline         (26) FreeServerCCcam
-        (9) IPAudioPlus     (18) XtraEvent           (27) HasBahCa
+        (9) neoboot9.65     (18) XtraEvent           (27) HasBahCa
         """
 
         channel = """
@@ -212,7 +212,7 @@ class Script():
                     "6": self.get_info('keyadder'),
                     "7": self.get_info('e2iplayer'),
                     "8": self.get_info('footonsat'),
-                    "9": self.get_info('novaipaudio'),
+                    "9": self.get_info('neoboot9.65'),
                     "10": self.get_info('subssupport'),
                     "11": self.get_info('newvirtualkeyBoard'),
                     "12": self.get_info('suptv'),
@@ -234,7 +234,7 @@ class Script():
                     "28": self.get_info('rakutentv'),
                     "29": self.get_info('chocholousekpicons'),
                     "30": self.get_info('openwebif'),
-                    "31": self.get_info('novacam'),
+                    "31": self.get_info('Channel_Emil'),
                     "32": self.get_info('Cccam'),
                     "40": "ciefp-e2-settings-75e-34w.tar.gz",
                     "41": "vhannibal-settings-e2-motor-70e-45w.tar.gz",

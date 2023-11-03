@@ -1,7 +1,7 @@
 {
     "Cccam": "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh",
     "Levi45addonsmanager": "wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh -qO - | /bin/sh",
-    "ajpanel": "wget https://raw.githubusercontent.com/emil237/ajpanel/main/installer.sh -O - | /bin/sh",
+    "ajpanel": "wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh",
     "arabic_savior": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -qO - | /bin/sh",
     "youtube": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -qO - | /bin/sh",
     "iptosat": "wget https://raw.githubusercontent.com/emil237/iptosat/main/installer.sh -O - | /bin/sh",
@@ -28,10 +28,10 @@
     "rakutentv": "wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/RakutenTV/installer.py -qO - | python",
     "chocholousekpicons": "wget https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO - | bash -s install",
     "openwebif": "wget https://github.com/abo-barby/openwebif/raw/main/installer.sh -qO - | /bin/sh",
-    "novacam": "wget -q https://raw.githubusercontent.com/MOHAMED19OS/Download/main/NovCam/installer.py; python installer.py && rm -rf $(pwd)/installer.py*",
+    "Channel_Emil": "wget -q https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -qO - | /bin/sh",
     "freeserver": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh",
     "QuarterPounder": "wget https://dreambox4u.com/emilnabil237/plugins/quarterpounder/installer.sh -O - | /bin/sh",
-    "novaipaudio": "wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/NovaIPAudio/installer.py -qO - | python",
+    "neoboot9.65": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
     "pluto": "wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/PlutoTV/installer.sh -qO - | /bin/sh",
     "channel_os": "wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python"
 }
