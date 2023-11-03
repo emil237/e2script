@@ -184,11 +184,11 @@ class Script():
                                 (00) Exit       (0) Default
 
         (1) AjPanel         (10) SubsSupport         (19) DreamSatPanel      (28) RakutenTV
-        (2) Quran           (11) NewVirtualKeyBoard  (20) JediMakerXtream    (29) ChocholousekPicons
+        (2) Levi45addonsmanager           (11) NewVirtualKeyBoard  (20) JediMakerXtream    (29) ChocholousekPicons
         (3) RaedQuickSignal (12) Suptv               (21) Xstreamity         (30) OpenWebif Only DreamOS
         (4) ArabicSavior    (13) IPtoSAT             (22) XcPlugin Forever   (31) NovaCam
-        (5) YouTube         (14) EPG Grabber         (23) OpenMultiboot      (32) NovalerTV
-        (6) KeyAdder        (15) EMU Install         (24) AthanTimes
+        (5) YouTube         (14) EPG Grabber         (23) OpenMultiboot      (32) Cccam
+        (6) KeyAdder        (15) EMU Install         (24) QuarterPounder
         (7) E2IPLAYER       (16) PlutoTV             (25) BackupFlash
         (8) FootOnsat       (17) FlashOnline         (26) FreeServerCCcam
         (9) IPAudioPlus     (18) XtraEvent           (27) HasBahCa
@@ -205,7 +205,7 @@ class Script():
         self.cam = {"00": exit,
                     "0": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
                     "1": self.get_info('ajpanel'),
-                    "2": self.get_info('quran'),
+                    "2": self.get_info('Levi45addonsmanager'),
                     "3": self.get_info('raedquicksignal'),
                     "4": self.get_info('arabic_savior'),
                     "5": self.get_info('youtube'),
@@ -227,7 +227,7 @@ class Script():
                     "21": self.get_info('xstreamity'),
                     "22": self.get_info('xc_code'),
                     "23": self.get_info('openmultiboot'),
-                    "24": self.get_info('athantimes'),
+                    "24": self.get_info('QuarterPounder'),
                     "25": self.get_info('backupflash'),
                     "26": self.get_info('freeserver'),
                     "27": self.get_info('hasbahca'),
@@ -235,7 +235,7 @@ class Script():
                     "29": self.get_info('chocholousekpicons'),
                     "30": self.get_info('openwebif'),
                     "31": self.get_info('novacam'),
-                    "32": self.get_info('novalertv'),
+                    "32": self.get_info('Cccam'),
                     "40": "ciefp-e2-settings-75e-34w.tar.gz",
                     "41": "vhannibal-settings-e2-motor-70e-45w.tar.gz",
                     "42": "GioppyGio_E2_Motor_75E-45W.tar.gz",
