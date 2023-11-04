@@ -185,11 +185,11 @@ class Script():
 
         (1) AjPanel         (10) SubsSupport         (19) DreamSatPanel      (28) RakutenTV
         (2) Levi45addonsmanager           (11) NewVirtualKeyBoard  (20) JediMakerXtream    (29) ChocholousekPicons
-        (3) RaedQuickSignal (12) Suptv               (21) Xstreamity         (30) OpenWebif Only DreamOS
+        (3) RaedQuickSignal (12) cronmanager               (21) Xstreamity         (30) OpenWebif Only DreamOS
         (4) ArabicSavior    (13) IPtoSAT             (22) XcPlugin Forever   (31) Channel_Emil
         (5) YouTube         (14) EPG Grabber         (23) OpenMultiboot      (32) Cccam
         (6) KeyAdder        (15) EMU Install         (24) QuarterPounder
-        (7) E2IPLAYER       (16) PlutoTV             (25) BackupFlash
+        (7) E2IPLAYER       (16) Feed-Emil             (25) BackupFlash
         (8) FootOnsat       (17) FlashOnline         (26) FreeServerCCcam
         (9) neoboot9.65     (18) XtraEvent           (27) HasBahCa
         """
@@ -215,11 +215,11 @@ class Script():
                     "9": self.get_info('neoboot9.65'),
                     "10": self.get_info('subssupport'),
                     "11": self.get_info('newvirtualkeyBoard'),
-                    "12": self.get_info('suptv'),
+                    "12": self.get_info('cronmanager'),
                     "13": self.get_info('iptosat'),
                     "14": self.get_info('epg_grabber'),
                     "15": self.get_info('emu'),
-                    "16": self.get_info('pluto'),
+                    "16": self.get_info('Feed-Emil'),
                     "17": self.get_info('flashonline'),
                     "18": self.get_info('xtraevante'),
                     "19": self.get_info('dreamsatpanel'),

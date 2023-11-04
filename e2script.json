@@ -6,7 +6,7 @@
     "youtube": "wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -qO - | /bin/sh",
     "iptosat": "wget https://raw.githubusercontent.com/emil237/iptosat/main/installer.sh -O - | /bin/sh",
     "e2iplayer": "wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false -qO - | /bin/sh",
-    "suptv": "wget https://raw.githubusercontent.com/emil237/download-plugins/main/suptv.sh -qO - | /bin/sh",
+    "cronmanager": "wget https://dreambox4u.com/emilnabil237/script/cronmanager.sh -qO - | /bin/sh",
     "multi_stalker": "wget https://raw.githubusercontent.com/emil237/multistalker1/main/installer.sh -qO - | /bin/sh",
     "raedquicksignal": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh  -qO - | /bin/sh",
     "ipaudio": "wget https://raw.githubusercontent.com/emil237/ipaudio/main/installer.sh -qO - | /bin/sh",
@@ -32,6 +32,6 @@
     "freeserver": "wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh",
     "QuarterPounder": "wget https://dreambox4u.com/emilnabil237/plugins/quarterpounder/installer.sh -O - | /bin/sh",
     "neoboot9.65": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
-    "pluto": "wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/PlutoTV/installer.sh -qO - | /bin/sh",
+    "Feed-Emil": "wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh -qO - | /bin/sh",
     "channel_os": "wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python"
 }
