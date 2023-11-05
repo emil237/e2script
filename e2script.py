@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# code: BY MOHAMED_OS
+# code: Edit BY Emil
 
 
 from __future__ import print_function
@@ -188,7 +188,8 @@ class Script():
         (3) RaedQuickSignal (12) cronmanager               (21) Xstreamity         (30) OpenWebif Only DreamOS
         (4) ArabicSavior    (13) IPtoSAT             (22) XcPlugin Forever   (31) Channel_Emil
         (5) YouTube         (14) EPG Grabber         (23) OpenMultiboot      (32) Cccam
-        (6) KeyAdder        (15) EMU Install         (24) QuarterPounder
+      (33) ipaudio 
+ (6) KeyAdder        (15) EMU Install         (24) QuarterPounder
         (7) E2IPLAYER       (16) Feed-Emil             (25) BackupFlash
         (8) FootOnsat       (17) FlashOnline         (26) FreeServerCCcam
         (9) neoboot9.65     (18) XtraEvent           (27) HasBahCa
@@ -236,6 +237,7 @@ class Script():
                     "30": self.get_info('openwebif'),
                     "31": self.get_info('Channel_Emil'),
                     "32": self.get_info('Cccam'),
+                    "33": self.get_info('ipaudio'),
                     "40": "ciefp-e2-settings-75e-34w.tar.gz",
                     "41": "vhannibal-settings-e2-motor-70e-45w.tar.gz",
                     "42": "GioppyGio_E2_Motor_75E-45W.tar.gz",
@@ -246,7 +248,7 @@ class Script():
 
         for name in self.prompt(self.cam.keys()):
             if name == '00':
-                print("GoodBye ...!\n", "   Written by {}MOHAMED_OS{}(͡๏̯͡๏) \n".format(
+                print("GoodBye ...!\n", "   Edit by {}Emil{}(͡๏̯͡๏) \n".format(
                     B, C, R, C))
                 exit()
             elif name == '0':
